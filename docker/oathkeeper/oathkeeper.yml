@@ -2,5 +2,5 @@ authenticators:
   jwt:
     config:
       jwks_urls:
-        - file://etc/config/oathkeeper/jwks.json
+        - file:///etc/config/oathkeeper/jwks.json
     enabled: true
