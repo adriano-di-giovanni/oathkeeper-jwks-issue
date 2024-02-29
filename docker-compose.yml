@@ -1,0 +1,6 @@
+services:
+  oathkeeper:
+    command: serve proxy -c /etc/config/oathkeeper/oathkeeper.yml
+    image: oryd/oathkeeper:v0.40
+
+version: '3.8'

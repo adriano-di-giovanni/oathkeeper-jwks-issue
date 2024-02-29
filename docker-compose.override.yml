@@ -1,0 +1,8 @@
+services:
+  oathkeeper:
+    ports:
+      - '4456:4456'
+    volumes:
+      - ./docker/oathkeeper:/etc/config/oathkeeper:ro
+
+version: '3.8'
